@@ -34,6 +34,13 @@ const localMenus: Menu[] = [
         key: 'tree',
         path: '/vue3tree',
         children: componentsList,
+    },
+    {
+        name: 'v3tree',
+        icon: 'ic:outline-featured-video',
+        key: 'vue3treeview',
+        path: '/v3tree',
+        children: componentsList,
     }
 ]
 

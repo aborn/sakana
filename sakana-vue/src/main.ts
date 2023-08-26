@@ -7,6 +7,7 @@ import 'ant-design-vue/dist/antd.css';
 import { setupRouter } from './router';
 import { NantaSetupOption, setupNanta } from '@nanta/ui';
 import '@nanta/ui/dist/style.css';
+import "vue3-treeview/dist/style.css";
 
 const app = createApp(App)
 
