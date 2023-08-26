@@ -1,6 +1,16 @@
 {
+  "compilerOptions": {
+    "jsx": "react"
+  },
   "files": [],
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue"
+  ],
   "references": [
     {
       "path": "./tsconfig.node.json"

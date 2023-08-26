@@ -51,5 +51,9 @@ const data = ref([
         id: 6,
         label: 'People',
     },
+    {
+        id: 7,
+        label: '中国人',
+    },
 ]);
 </script>

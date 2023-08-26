@@ -22,17 +22,17 @@ const localMenus: Menu[] = [
         group: 'index'
     },    
     {
-        name: '树结构',
+        name: 'Vue',
         icon: 'ic:outline-featured-video',
         key: 's',
-        path: '/sakata',
+        path: '/vuetree',
         children: componentsList,
     },
     {
-        name: '树结构2',
+        name: 'Vue3Tree',
         icon: 'ic:outline-featured-video',
         key: 'tree',
-        path: '/tree',
+        path: '/vue3tree',
         children: componentsList,
     }
 ]
