@@ -22,7 +22,7 @@ const localMenus: Menu[] = [
         group: 'index'
     },    
     {
-        name: 'Vue',
+        name: 'VueTree',
         icon: 'ic:outline-featured-video',
         key: 's',
         path: '/vuetree',
