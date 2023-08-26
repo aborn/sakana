@@ -1,19 +1,15 @@
 <template>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/sakata">Sakata</RouterLink>
-        <RouterLink to="/tree">Tree</RouterLink>
-      </nav>
-    </div>
-  <RouterView />
+  <div>
+    <DefaultLayout>
+      <RouterView />
+    </DefaultLayout>
+  </div>
 </template>
 
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from "vue-router";
+import DefaultLayout from '/@/layouts/default.vue';
 </script>
-
 
 <style scoped>
 header {
